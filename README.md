@@ -38,7 +38,6 @@ const { ethers } = require("ethers");
     console.log("Address: " + wallet.address);
     console.log("Public Key: " + wallet.publicKey);
     console.log("Private Key:" + wallet.privateKey);
-    console.log(`Balance: ${eth} ETH`);
     console.log("=====================================================");
   }
 ```
