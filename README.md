@@ -1,6 +1,26 @@
-# WalletEthGenerator-Looping
+# WalletEthGenerator-Looping-Nodejs
+
+## Bisakah membuat wallet acak untuk mendapatkan wallet yang dimiliki seorang? 
+
+Secara teori, mungkin saja menghasilkan pasangan kunci pribadi/publik yang sudah terkait dengan akun Ethereum yang memiliki saldo. Namun, kemungkinan keberhasilannya sangat kecil, hampir mustahil.
+
+Setiap akun Ethereum memiliki alamat unik yang dihasilkan dari proses hashing yang memerlukan entropi yang cukup tinggi. Kunci pribadi juga dihasilkan secara acak dan terdiri dari bilangan bulat 256 bit. Karena jumlah kemungkinan alamat dan kunci pribadi yang mungkin sangat besar, sangat tidak mungkin untuk secara acak menghasilkan pasangan kunci pribadi/publik yang terkait dengan akun yang memiliki saldo.
 
 ## Script membuat wallet ETH acak menggunakan runtime Node.js
+
+Node.js Versi 18
+
+##### Library atau dependencies:
+ethers Versi 5.7.2
+
+Kita tidak menggunakan versi terbaru, karena versi terbaru belum stabil. 
+
+#### Penginstalan library
+```
+npm i ethers@5.7.2
+```
+
+## Code sederhana (ini sangat cepat) 
 
 ```
 const { ethers } = require("ethers");
