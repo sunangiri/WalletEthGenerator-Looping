@@ -22,6 +22,11 @@ npm i ethers@5.7.2
 
 ## Code sederhana (ini sangat cepat) 
 
+Run? 
+```
+node index
+```
+`index.js`
 ```
 const { ethers } = require("ethers");
 
@@ -39,6 +44,11 @@ const { ethers } = require("ethers");
 ```
 ## Jika menginginkan kode mengecek balance
 
+Run? 
+```
+node app
+```
+`app.js`
 ```
 const { ethers } = require("ethers");
 
